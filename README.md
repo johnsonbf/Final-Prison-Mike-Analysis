@@ -31,6 +31,7 @@ Topics
   ## Section Assignments
   
   WIP
+  
   Brad
   - clean, data insights, python etc
   Noa
