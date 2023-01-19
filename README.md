@@ -42,5 +42,5 @@ Topics
 
   Emily/Sanjay
   
-  - machine learning
+  - machine learning - will collaborate
  
