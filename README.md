@@ -19,3 +19,5 @@ Topics
 
 - A database can be any place you save and store your data - local machine or in something like PostGres
 - For each team member to get in a specific amount of commits, whatever section they are responsible for can be broken into small tasks that are then pushed as new commits
+- Each section of the project does not need to be completed or brainstormed linearly
+  - for example: ML model can be brainstormed and mocked up at the same time the database is created
