@@ -34,8 +34,13 @@ Topics
   
   Brad
   - clean, data insights, python etc
+  
   Noa
+  
   - tableau, visualizations
+
+
   Emily/Sanjay
+  
   - machine learning
  
