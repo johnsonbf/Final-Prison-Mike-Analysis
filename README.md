@@ -40,10 +40,11 @@ Team members have drafted their project, including the following:
 ![image](https://user-images.githubusercontent.com/109913335/213871425-761738a5-4856-4646-a973-d43a5807efc1.png)
 
  - Questions we hope to answer with the data
-   - What attributes contribute to a review over x?
+   - What attributes contribute to a review over 3?
    - What breweries have the best ratings?
-   - Which attribute of the review contributes the most to the overall rating?
-   - Which type of beer gets the best overall review?
+   - Which attribute of the review contributes the most to the overall review score?
+   - Which beer style gets the best overall review?
+   - Which beer style has the best aroma review scores?
    - Once a person selects a brewery, show the beers with the highest overall reviews.
  
 ### GitHub
@@ -61,7 +62,14 @@ Individual Branches
 ### Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
  - Takes in data in from the provisional database
+   - beer_reviews.csv
  - Outputs label(s) for input data
+   - review_aroma
+   - review_appearance
+   - review_palate
+   - review_taste
+   - beer_abv
+   - Target = review_overall (3 or under, or 3.5 or higher)
  
 ### Database
 Team members present a provisional database that stands in for the final database and accomplishes the following:
