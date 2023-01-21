@@ -45,7 +45,8 @@ Team members have drafted their project, including the following:
    - Which attribute of the review contributes the most to the overall review score?
    - Which beer style gets the best overall review?
    - Which beer style has the best aroma review scores?
-   - Once a person selects a brewery, show the beers with the highest overall reviews.
+   - Once a person selects a brewery, show the beers and breweries with the highest overall reviews.
+   - Once a person selects an ABV bucket, show beers and breweries with the highest overall reviews.
  
 ### GitHub
 Main Branch 
