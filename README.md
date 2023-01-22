@@ -21,8 +21,11 @@
   Noa
   - tableau, visualizations
 
-  Emily/Sanjay
-  - machine learning - will collaborate
+  Sanjay
+  - machine learning, database erd
+
+Emily
+  - Machine learning, a little data cleanng, project manager
 
 ## Week 1 Deliverables
 ### Content
