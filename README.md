@@ -77,5 +77,6 @@ Team members present a provisional machine learning model that stands in for the
  
 ### Database
 Team members present a provisional database that stands in for the final database and accomplishes the following:
- - Sample data that mimics the expected final database structure or schema 
- - Draft machine learning module is connected to the provisional database
+ - Sample data that mimics the expected final database structure or schema:
+   - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
+ - Draft machine learning module is connected to the provisional database: See Model notebook
