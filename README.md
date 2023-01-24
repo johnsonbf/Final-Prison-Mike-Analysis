@@ -8,6 +8,9 @@
 - Machine learning
 - Presentation
 
+## Data file too big!
+- can zip to compress to upload to github to use as database
+
 ## Things mentioned in class
 - A database can be any place you save and store your data - local machine or in something like PostGres
 - For each team member to get in a specific amount of commits, whatever section they are responsible for can be broken into small tasks that are then pushed as new commits
