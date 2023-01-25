@@ -83,3 +83,10 @@ Team members present a provisional database that stands in for the final databas
  - Sample data that mimics the expected final database structure or schema:
    - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
  - Draft machine learning module is connected to the provisional database: See Model notebook
+
+### Visualization - Tableau
+
+- Data at a glance: overview tab to give the user a good idea of how much data, what kind of data, etc they are seeing
+- Brewery tab: ability to check one or multiple breweries and toggle a review slider to see  reviews by brewery, beer type and reviewer
+- Beer tab: ability to check one or more beer types and toggle a review slider to see overall reviews, reviews by taste, aroma, flavor, etc.
+- ABV tab: ability to check one or more ABV level and a toggle a review slider to see overall reviews, reviews by brewery and review by taste
