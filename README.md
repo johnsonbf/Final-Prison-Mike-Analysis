@@ -39,21 +39,50 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
 ### Content
 Content 
 The presentation tells a cohesive story about their project, including the following:
-****✓ Selected topic: Beer Advocate Beer Reviews
-****✓ Reason why they selected their topic:
-**** - Digestible topic
- ****- Beer is universal
- ****- Applicable to demographic of the project audience
- ****- Cheers
 
-✓ Description of their source of data 
-✓ Questions they hope to answer with the data 
-✓ Description of the data exploration phase of the project 
-✓ Description of the analysis phase of the project 
-✓ Technologies, languages, tools, and algorithms used throughout the project 
-✓ Result of analysis 
-✓ Recommendation for future analysis 
-✓ Anything the team would have done differently
+**1. Selected topic:** 
+      
+      - Beer Advocate Beer Reviews
+
+**2. Reason for selecting the topic**
+
+     - Digestible topic
+     - Beer is universal
+     - Applicable to demographic of the project audience
+     - Cheers
+
+**3. Description of their source of data** 
+
+     - Beer Reviews from Beer Advocate
+     - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
+     - Large data set (1.5 million reviews)
+![image](https://user-images.githubusercontent.com/109913335/215336653-e934b8aa-1a6a-42e1-bf4c-a7adfbd7681e.png)
+    
+**4. Questions they hope to answer with the data**
+
+    - What attributes of a review contribute to an overall review score over 3?
+    - What breweries have the best ratings?
+    - Which attribute of the review contributes the most to the overall review score?
+    - Which beer style gets the best overall review?
+    - Which beer style has the best aroma review scores?
+    - Once a person selects a brewery, show the beers and breweries with the highest overall reviews.
+    - Once a person selects an ABV bucket, show beers and breweries with the highest overall reviews.
+
+**5. Description of the data exploration phase of the project**
+
+    - Opened the CSV in excel and scanned data to get the feel of it
+    - Imported Dependencies and Read beer_reviews.csv into a dataframe
+    - Displayed the first 5 rows of the dataframe
+    - Looked for null values
+    - Displayed the number of unique values for each column
+    - Displayed the data types
+    - Displayed the value counts of several columns
+
+7. Description of the analysis phase of the project 
+8. Technologies, languages, tools, and algorithms used throughout the project 
+9. Result of analysis 
+10. Recommendation for future analysis 
+11. Anything the team would have done differently
 
 Slides 
 Presentations are finalized in Google Slides.
@@ -67,18 +96,8 @@ Live Presentation
 ✓ Submission includes speaker notes, flashcards, or a video of the presentation rehearsal
 
 
-Team members have drafted their project, including the following:
- - Selected topic:  
-   - Beer Advocate Beer Reviews
- - Reason why they selected their topic:
-   - Beer
-   - Applicable to demographic
- - Description of their source of data
-   - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
-   - Beer Reviews from Beer Advocate (1.5 Million reviews)
-   - Large data set
    
-![image](https://user-images.githubusercontent.com/109913335/213871425-761738a5-4856-4646-a973-d43a5807efc1.png)
+
 
  - Questions we hope to answer with the data
    - What attributes contribute to a review over 3?
