@@ -79,6 +79,7 @@ The presentation tells a cohesive story about their project, including the follo
     - Displayed the value counts of several columns
 
 7. Description of the analysis phase of the project - in progress
+
 **8. Technologies, languages, tools, and algorithms used throughout the project**
 
       - Microsoft Excel
