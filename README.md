@@ -24,6 +24,9 @@
 https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
 - We chose to use the initial csv (after cleaning) as our database. We created a mockup ERD only.
 
+![image](https://user-images.githubusercontent.com/109913335/215339585-e62f7652-5e49-4eec-9cae-e385efc0659b.png)
+
+
 ## Group Assignments & Communication Protocols
 ### Assignments
  - Brad: clean, data insights, python, google slides collaboration
