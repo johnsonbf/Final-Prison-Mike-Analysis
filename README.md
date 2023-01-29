@@ -1,36 +1,41 @@
-# prison_mike_analysis AKA BEER REVIEWS
+# Beer Advocate Beer Review Analysis
 
-## Notes
-- Data cleaning & parsing
-  - ETL (could be multiple tables)
-  - postgres/SQL
-- Visualization - Tableau
-- Machine learning
-- Presentation
+## Sections in general
+- Presentation:
+  - Google Slides
+- GitHub:
+  - Branching, commits
+  - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+- Machine Learning Model:
+  - Working model
+  - Full description of steps with explanations
+  - Answers the question
+- Database
+ - integrated database
+ - at least 2 tables, 1 join, 1 connection string
+- Dashboard
+  - Data story that is logical and easy to follow
+  - Images from the initial analysis
+  - Data from the machine learning task
+  - At least one interactive element
 
-## Data file too big!
-- can zip to compress to upload to github to use as database
+## Project Notes
+- Our data source file is over 200MB. Over 30MB when zipped. We attempted lfs and were not successful. Please see this link for our data.
+https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
+- We chose to use the initial csv (after cleaning) as our database. We created a mockup ERD only.
 
-## Things mentioned in class
-- A database can be any place you save and store your data - local machine or in something like PostGres
-- For each team member to get in a specific amount of commits, whatever section they are responsible for can be broken into small tasks that are then pushed as new commits
-- Each section of the project does not need to be completed or brainstormed linearly
-  - for example: ML model can be brainstormed and mocked up at the same time the database is created
-    
-  ## Group Assignments
-  Brad
-  - clean, data insights, python etc
-  
-  Noa
-  - tableau, visualizations
+## Group Assignments & Communication Protocols
+### Assignments
+ - Brad: clean, data insights, python, google slides collaboration
+ - Noa: tableau visualizations, data insights, google slides collaboration
+ - Sanjay: data cleaning, machine learning model and reasoning, database erd, google slides collaboraton
+ - Emily: data cleaning, machine learning model and reasoning, data cleanng, project manager, google slides collaboration
+ 
+ ### Communication Protocols
+  - Established a slack channel for communication
+  - Met during class time and Sundays. Worked individually inbetween group meetings.
 
-  Sanjay
-  - machine learning, database erd
-
-Emily
-  - Machine learning, a little data cleanng, project manager
-
-## Week 1 Deliverables
+## Overall Rubric deliverables (bolded as completed)
 ### Content
 Team members have drafted their project, including the following:
  - Selected topic:  
