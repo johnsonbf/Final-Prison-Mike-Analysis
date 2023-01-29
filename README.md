@@ -11,8 +11,8 @@
   - Full description of steps with explanations
   - Answers the question
 - Database
- - integrated database
- - at least 2 tables, 1 join, 1 connection string
+   - Integrated database
+   - At least 2 tables, 1 join, 1 connection string
 - Dashboard
   - Data story that is logical and easy to follow
   - Images from the initial analysis
