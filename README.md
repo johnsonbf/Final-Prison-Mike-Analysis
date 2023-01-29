@@ -36,8 +36,8 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
   - Met during class time and Sundays. Worked individually inbetween group meetings.
 
 ## Overall Rubric deliverables (bolded as completed)
-### Content
-Content 
+### Presentation
+#### Content
 The presentation tells a cohesive story about their project, including the following:
 
 **1. Selected topic:** 
@@ -58,7 +58,7 @@ The presentation tells a cohesive story about their project, including the follo
      - Large data set (1.5 million reviews)
 ![image](https://user-images.githubusercontent.com/109913335/215336653-e934b8aa-1a6a-42e1-bf4c-a7adfbd7681e.png)
     
-**4. Questions they hope to answer with the data**
+**4. Questions to answer with the data**
 
     - What attributes of a review contribute to an overall review score over 3?
     - What breweries have the best ratings?
@@ -78,68 +78,128 @@ The presentation tells a cohesive story about their project, including the follo
     - Displayed the data types
     - Displayed the value counts of several columns
 
-7. Description of the analysis phase of the project 
-8. Technologies, languages, tools, and algorithms used throughout the project 
+7. Description of the analysis phase of the project - in progress
+**8. Technologies, languages, tools, and algorithms used throughout the project**
+
+      - Microsoft Excel
+      - Jupyter Notebook
+      - Tableau
+      - Github
+      - Google Slides
+      - Python
+      - Machine learning
+
 9. Result of analysis 
 10. Recommendation for future analysis 
 11. Anything the team would have done differently
 
-Slides 
+#### Slides 
+**Presentation is drafted in Google Slides**
+(insert link to google slides after only allowing editing by collaborators)
 Presentations are finalized in Google Slides.
-✓ Slides are primarily images or graphics (rather than primarily text) 
-✓ Images are clear, in high-definition, and directly illustrative of subject matter
+1. Slides are primarily images or graphics (rather than primarily text) 
+2. Images are clear, in high-definition, and directly illustrative of subject matter
 
-Live Presentation 
-✓ All team members present in equal proportions 
-✓ The team demonstrates interactivity of dashboard in real time 
-✓ The presentation falls within any time limits provided by instructor 
-✓ Submission includes speaker notes, flashcards, or a video of the presentation rehearsal
-
-
-   
-
-
- - Questions we hope to answer with the data
-   - What attributes contribute to a review over 3?
-   - What breweries have the best ratings?
-   - Which attribute of the review contributes the most to the overall review score?
-   - Which beer style gets the best overall review?
-   - Which beer style has the best aroma review scores?
-   - Once a person selects a brewery, show the beers and breweries with the highest overall reviews.
-   - Once a person selects an ABV bucket, show beers and breweries with the highest overall reviews.
+#### Live Presentation 
+1. All team members present in equal proportions 
+2. The team demonstrates interactivity of dashboard in real time 
+3. The presentation falls within any time limits provided by instructor 
+4. Submission includes speaker notes, flashcards, or a video of the presentation rehearsal
  
 ### GitHub
-Main Branch 
- - Includes a README.md
- - README.md README.md must include: 
-   - Description of the communication protocols: 
-     - Meeting on class days and Sundays.
-     - Created a slack channel for group to communicate updates and questions
+#### Main Branch 
+**1. All code in the main branch is production-ready.**
 
-Individual Branches 
- - At least one branch for each team member
- - Each team member has at least four commits from the duration of the first segment
+**2. All code necessary to perform exploratory analysis**
+
+**3. Some code necessary to complete he machine leanring portion of the project**
+
+4. All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)
+5. All code necessary to perform exploratory analysis 
+6. All code necessary to complete machine learning portion of project 
+7. Any images that have been created (at least three) 
+8. Requirements.txt file
+
+#### README.md  
+
+**1. Descriotion of the communications protocols**
+
+**2. Outline of the project (this may include images, but should be easy to follow and digest)**
+
+3. Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest) 
+4. Link to dashboard (or link to video of dashboard demo) 
+5. Link to Google Slides presentation
+
+Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
+
+#### Individual Branches 
+**1. At least one branch for each team member**
+
+**2. Each team member has at least four commits for the duration of the final segment (8 total commits per person)**
+
+3. Each team member has at least four commits for the duration of the final segment (16 total commits per person)
 
 ### Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
- - Takes in data in from the provisional database
-   - beer_reviews.csv
- - Outputs label(s) for input data
-   - review_aroma
-   - review_appearance
-   - review_palate
-   - review_taste
-   - beer_abv
-   - Target = review_overall (3 or under, or 3.5 or higher)
+
+**1. Takes in data in from the provisional database**
+
+      - beer_reviews.csv
+      
+**2. Outputs label(s) for input data**
+
+    - review_aroma
+    - review_appearance
+    - review_palate
+    - review_taste
+    - beer_abv
+    - Target variable = review_overall (3 or under, or 3.5 or higher)
+
+Team members submit the working code for their machine learning model, as well as the following:
+1. Description of data preprocessing 
+2. Description of feature engineering and the feature selection, including the team's decision-making process 
+3. Description of how data was split into training and testing sets 
+4. Explanation of model choice, including limitations and benefits 
+5. Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
+6. Description of how model was trained (or retrained, if they are using an existing model) 
+7. Description and explanation of model’s confusion matrix, including final accuracy score
+
+Additionally, the model obviously addresses the question or problem the team is solving.
+
+Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
+
  
 ### Database
-Team members present a provisional database that stands in for the final database and accomplishes the following:
- - Sample data that mimics the expected final database structure or schema:
-   - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
- - Draft machine learning module is connected to the provisional database: See Model notebook
+Team members present a final project with a fully integrated database. 
 
-### Visualization - Tableau
+**1. Database stores static data for use during the project**
 
+      - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
+      
+**2. Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)**
+
+3. Includes at least two tables (or collections, if using MongoDB) 
+4. Includes at least one join using the database language (not including any joins in Pandas) 
+5. Includes at least one connection string (using SQLAlchemy or PyMongo) 
+
+Note: If you use a SQL database, you must provide your ERD with relationships.
+
+
+### Dashboard
+A blueprint for the dashboard is created and includes all of the following:
+
+1. Storyboard on Google Slide(s) 
+2. Description of the tool(s) that will be used to create final dashboard 
+3. Description of interactive element(s) 
+
+The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
+1. Images from the initial analysis 
+2. Data (images or report) from the machine learning task 
+3. At least one interactive element
+
+Either the dashboard is published or the submission includes a screen capture video of it in action. 
+
+Working Notes
 - Data at a glance: overview tab to give the user a good idea of how much data, what kind of data, etc they are seeing
 - Brewery tab: ability to check one or multiple breweries and toggle a review slider to see  reviews by brewery, beer type and reviewer
 - Beer tab: ability to check one or more beer types and toggle a review slider to see overall reviews, reviews by taste, aroma, flavor, etc.
