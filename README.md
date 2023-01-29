@@ -37,6 +37,36 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
 
 ## Overall Rubric deliverables (bolded as completed)
 ### Content
+Content 
+The presentation tells a cohesive story about their project, including the following:
+****✓ Selected topic: Beer Advocate Beer Reviews
+****✓ Reason why they selected their topic:
+**** - Digestible topic
+ ****- Beer is universal
+ ****- Applicable to demographic of the project audience
+ ****- Cheers
+
+✓ Description of their source of data 
+✓ Questions they hope to answer with the data 
+✓ Description of the data exploration phase of the project 
+✓ Description of the analysis phase of the project 
+✓ Technologies, languages, tools, and algorithms used throughout the project 
+✓ Result of analysis 
+✓ Recommendation for future analysis 
+✓ Anything the team would have done differently
+
+Slides 
+Presentations are finalized in Google Slides.
+✓ Slides are primarily images or graphics (rather than primarily text) 
+✓ Images are clear, in high-definition, and directly illustrative of subject matter
+
+Live Presentation 
+✓ All team members present in equal proportions 
+✓ The team demonstrates interactivity of dashboard in real time 
+✓ The presentation falls within any time limits provided by instructor 
+✓ Submission includes speaker notes, flashcards, or a video of the presentation rehearsal
+
+
 Team members have drafted their project, including the following:
  - Selected topic:  
    - Beer Advocate Beer Reviews
