@@ -63,13 +63,13 @@ The presentation tells a cohesive story about their project, including the follo
     
 **4. Questions to answer with the data**
 
-    - What attributes of a review contribute to an overall review score over 3?
-    - What breweries have the best ratings?
-    - Which attribute of the review contributes the most to the overall review score?
-    - Which beer style gets the best overall review?
-    - Which beer style has the best aroma review scores?
-    - Once a person selects a brewery, show the beers and breweries with the highest overall reviews.
-    - Once a person selects an ABV bucket, show beers and breweries with the highest overall reviews.
+     - What beer style gets the best overall review scores?
+     - Which feature contributes the most to an overall review score over 3?
+     - Show the all the features and their associated importance.
+     - Show the features that contribute the most and least to the overall review score, and how they relate to the overall review score. 
+     - Show the breweries and average overall review. Allow the user to select a set of breweries and/or an overall review range.
+     - Show the average overall review by ABV. Allow the user to select an ABV range and/or beer style.
+
 
 **5. Description of the data exploration phase of the project**
 
