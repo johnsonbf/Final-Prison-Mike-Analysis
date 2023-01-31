@@ -99,7 +99,8 @@ The presentation tells a cohesive story about their project, including the follo
 
 #### Slides 
 **Presentation is drafted in Google Slides**
-(insert link to google slides after only allowing editing by collaborators)
+(https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing)
+
 Presentations are finalized in Google Slides.
 1. Slides are primarily images or graphics (rather than primarily text) 
 2. Images are clear, in high-definition, and directly illustrative of subject matter
