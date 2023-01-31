@@ -81,7 +81,9 @@ The presentation tells a cohesive story about their project, including the follo
     - Displayed the data types
     - Displayed the value counts of several columns
 
-7. Description of the analysis phase of the project - in progress
+**7. Description of the analysis phase of the project**
+
+      - See Google Slides (https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing)
 
 **8. Technologies, languages, tools, and algorithms used throughout the project**
 
@@ -93,9 +95,12 @@ The presentation tells a cohesive story about their project, including the follo
       - Python
       - Machine learning
 
-9. Result of analysis 
-10. Recommendation for future analysis 
-11. Anything the team would have done differently
+**9. Result of analysis** 
+
+      - see Model notebook3.ipynb on main branch, and google slides
+
+11. Recommendation for future analysis 
+12. Anything the team would have done differently
 
 #### Slides 
 **Presentation is drafted in Google Slides**
@@ -117,23 +122,25 @@ Presentations are finalized in Google Slides.
 
 **2. All code necessary to perform exploratory analysis**
 
-**3. Some code necessary to complete he machine leanring portion of the project**
+**3. All code necessary to complete machine learning portion of project**
 
-4. All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)
-5. All code necessary to perform exploratory analysis 
-6. All code necessary to complete machine learning portion of project 
-7. Any images that have been created (at least three) 
-8. Requirements.txt file
+**4. All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)**
+
+5. Any images that have been created (at least three) 
+6. Requirements.txt file
 
 #### README.md  
 
-**1. Descriotion of the communications protocols**
+**1. Description of the communications protocols**
 
 **2. Outline of the project (this may include images, but should be easy to follow and digest)**
 
 3. Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest) 
 4. Link to dashboard (or link to video of dashboard demo) 
-5. Link to Google Slides presentation
+
+**5. Link to Google Slides presentation**
+
+https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing
 
 Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
 
@@ -194,8 +201,15 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 A blueprint for the dashboard is created and includes all of the following:
 
 1. Storyboard on Google Slide(s) 
-2. Description of the tool(s) that will be used to create final dashboard 
-3. Description of interactive element(s) 
+**2. Description of the tool(s) that will be used to create final dashboard**
+
+      - Tableau Desktop
+      
+**3. Description of interactive element(s)**
+
+      - Show the breweries and average overall review. Allow the user to select a set of breweries and/or an overall review range.
+      - Show the average overall review by ABV. Allow the user to select an ABV range and/or beer style.
+
 
 The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
 1. Images from the initial analysis 
