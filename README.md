@@ -36,7 +36,7 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
  
  ### Communication Protocols
   - Established a slack channel for communication
-  - Met during class time and Sundays. Worked individually inbetween group meetings.
+  - Met during class time and Sundays. Worked individually in between group meetings.
 
 ## Overall Rubric deliverables (bolded as completed)
 ### Presentation
@@ -97,10 +97,16 @@ The presentation tells a cohesive story about their project, including the follo
 
 **9. Result of analysis** 
 
-      - see Model notebook3.ipynb on main branch, and google slides
+      - see Model notebook3.ipynb on main branch, and Google Slides
 
-11. Recommendation for future analysis 
-12. Anything the team would have done differently
+**11. Recommendation for future analysis**
+
+       - Capturing the number of beers/alcoholic drinks the beer reviewer has consumed prior to each review - Does the overall review score improve with the number of beers consumed?
+       - Capturing location data for the breweries to put together ultimate beer tours based on a user’s beer style preference and overall review scores.
+
+**12. Anything the team would have done differently**
+
+       - Random Forest with resampling to improve the recall score of predictions for beers with an overall review of 3 and under.
 
 #### Slides 
 **Presentation is drafted in Google Slides**
@@ -108,7 +114,8 @@ The presentation tells a cohesive story about their project, including the follo
 
 Presentations are finalized in Google Slides.
 1. Slides are primarily images or graphics (rather than primarily text) 
-2. Images are clear, in high-definition, and directly illustrative of subject matter
+
+**2. Images are clear, in high-definition, and directly illustrative of subject matter**
 
 #### Live Presentation 
 1. All team members present in equal proportions 
@@ -135,7 +142,8 @@ Presentations are finalized in Google Slides.
 
 **2. Outline of the project (this may include images, but should be easy to follow and digest)**
 
-3. Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest) 
+**3. Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)**
+
 4. Link to dashboard (or link to video of dashboard demo) 
 
 **5. Link to Google Slides presentation**
@@ -149,7 +157,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 **2. Each team member has at least four commits for the duration of the final segment (8 total commits per person)**
 
-3. Each team member has at least four commits for the duration of the final segment (16 total commits per person)
+**3. Each team member has at least four commits for the duration of the final segment (16 total commits per person)**
 
 ### Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
@@ -167,7 +175,10 @@ Team members present a provisional machine learning model that stands in for the
     - beer_abv
     - Target variable = review_overall (3 or under, or 3.5 or higher)
 
-Team members submit the working code for their machine learning model, as well as the following:
+**Team members submit the working code for their machine learning model, as well as the following:**
+
+    - See attached Logistic Regression and Random Forest Jupyter Notebooks
+    - See Google slide deck for the below 1-7 deliverables
 1. Description of data preprocessing 
 2. Description of feature engineering and the feature selection, including the team's decision-making process 
 3. Description of how data was split into training and testing sets 
@@ -176,7 +187,7 @@ Team members submit the working code for their machine learning model, as well a
 6. Description of how model was trained (or retrained, if they are using an existing model) 
 7. Description and explanation of model’s confusion matrix, including final accuracy score
 
-Additionally, the model obviously addresses the question or problem the team is solving.
+**Additionally, the model obviously addresses the question or problem the team is solving.**
 
 Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
 
@@ -201,6 +212,7 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 A blueprint for the dashboard is created and includes all of the following:
 
 1. Storyboard on Google Slide(s) 
+
 **2. Description of the tool(s) that will be used to create final dashboard**
 
       - Tableau Desktop
