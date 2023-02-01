@@ -211,7 +211,7 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 ### Dashboard
 A blueprint for the dashboard is created and includes all of the following:
 
-1. Storyboard on Google Slide(s) 
+**1. Storyboard on Google Slide(s)**
 
 **2. Description of the tool(s) that will be used to create final dashboard**
 
