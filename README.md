@@ -19,9 +19,25 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
   - Established a slack channel for communication
   - Met during class time and Sundays. Worked individually in between group meetings.
 
-## Overall Rubric deliverables (bolded as completed)
-### Presentation
-#### Content
+## Outline/Storyboard
+ - Topic and Reasoning
+ - Data Source
+ - What can the data tell us?
+ - Data Exploration Process
+ - Dataset at a Glance
+ - Analysis Phase
+ - Results - Models
+ - Dashboard Analysis and Results
+ - Technologies, Languages, Tools, and Algorithms
+ - Recommendations for a Future Analysis
+ - Reflection
+
+## Link to Google Slides presentation
+
+https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing
+
+
+## Content
 The presentation tells a cohesive story about their project, including the following:
 
 **1. Selected topic:** 
@@ -65,6 +81,22 @@ The presentation tells a cohesive story about their project, including the follo
 **7. Description of the analysis phase of the project**
 
       - See Google Slides (https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing)
+      - Preprocessing including removing null values, identifying the features and target variables, removing non-beneficial columns, converted our target values to 0 and 1 so we could create a classification machine learning model.
+      - Started with Logistic regression
+      - Our data is imbalanced with only 17% from the minority class, so we resampled using SMOTEENN.
+      - Created a confusion matrix.
+      
+      ![image](https://user-images.githubusercontent.com/109913335/217130396-83dee6cf-151f-4efa-a1f8-5966cbeaf927.png)
+      
+      - Logistic Regression Results
+      
+      ![image](https://user-images.githubusercontent.com/109913335/217130541-2ebaaf8c-ed67-4e19-a821-3bd328400da2.png)
+
+         - Overall Accuracy = 86.%
+         - Good precision for positively predicting which beers will have a review over 3. Less precision for predicting beers with an overall review score of 3 or under. 
+         - Good recall for both overall review buckets.
+         - Good F1 scores, but better for beers with an overall review over 3
+
 
 **8. Technologies, languages, tools, and algorithms used throughout the project**
 
@@ -78,67 +110,20 @@ The presentation tells a cohesive story about their project, including the follo
 
 **9. Result of analysis** 
 
-      - see Model notebook3.ipynb on main branch, and Google Slides
+      - see Logistic Regression and Random Forest Models on the main branch, and Google Slides
 
 **11. Recommendation for future analysis**
 
-       - Capturing the number of beers/alcoholic drinks the beer reviewer has consumed prior to each review - Does the overall review score improve with the number of beers consumed?
+       - Adjust bucketing to overall reviews of 4 and over, and under 4.
+       - Capturing the number of beers/alcoholic drinks the beer reviewer has consumed prior to each review - Does the overall review score improve with the number of beers consumed? 
        - Capturing location data for the breweries to put together ultimate beer tours based on a user’s beer style preference and overall review scores.
+       - Capturing more data on if any breweries distill their own liquor or ferment their own wine in addition to brewing their own beer - to what extent does a brewery that makes more than just beer have higher or lower reviews?
+
 
 **12. Anything the team would have done differently**
 
-       - Random Forest with resampling to improve the recall score of predictions for beers with an overall review of 3 and under.
-
-#### Slides 
-**Presentation is drafted in Google Slides**
-(https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing)
-
-Presentations are finalized in Google Slides.
-1. Slides are primarily images or graphics (rather than primarily text) 
-
-**2. Images are clear, in high-definition, and directly illustrative of subject matter**
-
-#### Live Presentation 
-1. All team members present in equal proportions 
-2. The team demonstrates interactivity of dashboard in real time 
-3. The presentation falls within any time limits provided by instructor 
-4. Submission includes speaker notes, flashcards, or a video of the presentation rehearsal
- 
-### GitHub
-#### Main Branch 
-**1. All code in the main branch is production-ready.**
-
-**2. All code necessary to perform exploratory analysis**
-
-**3. All code necessary to complete machine learning portion of project**
-
-**4. All code is clean, commented, easy to read, and adheres to a coding standard (e.g., PEP8)**
-
-5. Any images that have been created (at least three) 
-6. Requirements.txt file
-
-#### README.md  
-
-**1. Description of the communications protocols**
-
-**2. Outline of the project (this may include images, but should be easy to follow and digest)**
-
-**3. Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest)**
-
-4. Link to dashboard (or link to video of dashboard demo) 
-
-**5. Link to Google Slides presentation**
-
-https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing
-
-Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
-
-#### Individual Branches 
-**1. At least one branch for each team member**
-
-**2. Each team member has at least four commits for the duration of the final segment (8 total commits per person)**
-
-**3. Each team member has at least four commits for the duration of the final segment (16 total commits per person)**
+       - Spent more time ideating the topic and potential scope of project
+       - Research ways to improve the recall score on the positive predictions of the Random Forest Model
 
 ### Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
@@ -204,7 +189,8 @@ A blueprint for the dashboard is created and includes all of the following:
       - Show the average overall review by ABV. Allow the user to select an ABV range and/or beer style.
 
 
-The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
+**The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:**
+
 1. Images from the initial analysis 
 2. Data (images or report) from the machine learning task 
 3. At least one interactive element
