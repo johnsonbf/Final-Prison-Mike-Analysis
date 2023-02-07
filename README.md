@@ -36,29 +36,31 @@ https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer
 
 https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing
 
+## Database
+      - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
 
 ## Content
 The presentation tells a cohesive story about their project, including the following:
 
-**1. Selected topic:** 
+**Selected topic:** 
       
       - Beer Advocate Beer Reviews
 
-**2. Reason for selecting the topic**
+**Reason for selecting the topic**
 
      - Digestible topic
      - Beer is universal
      - Applicable to demographic of the project audience
      - Cheers
 
-**3. Description of their source of data** 
+**Description of their source of data** 
 
      - Beer Reviews from Beer Advocate
      - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
      - Large data set (1.5 million reviews)
 ![image](https://user-images.githubusercontent.com/109913335/215336653-e934b8aa-1a6a-42e1-bf4c-a7adfbd7681e.png)
     
-**4. Questions to answer with the data**
+**Questions to answer with the data**
 
      - What beer style gets the best overall review scores?
      - Which feature contributes the most to an overall review score over 3?
@@ -68,7 +70,7 @@ The presentation tells a cohesive story about their project, including the follo
      - Show the average overall review by ABV. Allow the user to select an ABV range and/or beer style.
 
 
-**5. Description of the data exploration phase of the project**
+**Description of the data exploration phase of the project**
 
     - Opened the CSV in excel and scanned data to get the feel of it
     - Imported Dependencies and Read beer_reviews.csv into a dataframe
@@ -78,27 +80,50 @@ The presentation tells a cohesive story about their project, including the follo
     - Displayed the data types
     - Displayed the value counts of several columns
 
-**7. Description of the analysis phase of the project**
+**Model analysis and results**
 
       - See Google Slides (https://docs.google.com/presentation/d/16uvX4NDOVZA92_KLJNtno265sSpNJKDcykty3R15uHI/edit?usp=sharing)
       - Preprocessing including removing null values, identifying the features and target variables, removing non-beneficial columns, converted our target values to 0 and 1 so we could create a classification machine learning model.
-      - Started with Logistic regression
       - Our data is imbalanced with only 17% from the minority class, so we resampled using SMOTEENN.
+      
+![image](https://user-images.githubusercontent.com/109913335/217132207-89e53a22-736b-458f-b22b-caf02aab78e1.png)
+  
+      - Started with Logistic regression
+      
+![image](https://user-images.githubusercontent.com/109913335/217132283-9d10e678-99e5-4cc8-b3b4-f9b470e29b3d.png)
+
       - Created a confusion matrix.
       
-      ![image](https://user-images.githubusercontent.com/109913335/217130396-83dee6cf-151f-4efa-a1f8-5966cbeaf927.png)
-      
+![image](https://user-images.githubusercontent.com/109913335/217131019-323aec12-1be8-4ed6-99df-a5020de52426.png)
+    
       - Logistic Regression Results
-      
-      ![image](https://user-images.githubusercontent.com/109913335/217130541-2ebaaf8c-ed67-4e19-a821-3bd328400da2.png)
+
+![image](https://user-images.githubusercontent.com/109913335/217130951-3eab30f4-acfe-48c8-8d91-463c21c8b212.png)
 
          - Overall Accuracy = 86.%
          - Good precision for positively predicting which beers will have a review over 3. Less precision for predicting beers with an overall review score of 3 or under. 
          - Good recall for both overall review buckets.
          - Good F1 scores, but better for beers with an overall review over 3
+       - Tried to get a better result with Random Forest
+     
+![image](https://user-images.githubusercontent.com/109913335/217131473-882104d2-a5c0-46c1-9ab0-4cab6fc49ac1.png)
 
+         - Created a confusion matrix
+         
+![image](https://user-images.githubusercontent.com/109913335/217131674-750dc123-e4a0-4eca-a265-891d83a8ac20.png)
 
-**8. Technologies, languages, tools, and algorithms used throughout the project**
+         - Random Forest Results
+         
+![image](https://user-images.githubusercontent.com/109913335/217131806-b666e4fd-8252-4355-a4d2-cdca449eaf76.png)
+
+           - Overall Accuracy = 90.6.%
+           - Good precision for positively predicting which beers will have a review over 3. Less precision for predicting beers with an overall review score of 3 or under. 
+           - Recall suffers a bit for for beers with an overall review score of 3.
+           - Logistic regression produced a similar recall score prior to resampling.
+           - Good F1 scores, but better for beers with an overall review over 3 
+         
+
+**Technologies, languages, tools, and algorithms used throughout the project**
 
       - Microsoft Excel
       - Jupyter Notebook
@@ -108,11 +133,7 @@ The presentation tells a cohesive story about their project, including the follo
       - Python
       - Machine learning
 
-**9. Result of analysis** 
-
-      - see Logistic Regression and Random Forest Models on the main branch, and Google Slides
-
-**11. Recommendation for future analysis**
+**Recommendation for future analysis**
 
        - Adjust bucketing to overall reviews of 4 and over, and under 4.
        - Capturing the number of beers/alcoholic drinks the beer reviewer has consumed prior to each review - Does the overall review score improve with the number of beers consumed? 
@@ -120,7 +141,7 @@ The presentation tells a cohesive story about their project, including the follo
        - Capturing more data on if any breweries distill their own liquor or ferment their own wine in addition to brewing their own beer - to what extent does a brewery that makes more than just beer have higher or lower reviews?
 
 
-**12. Anything the team would have done differently**
+**Anything the team would have done differently**
 
        - Spent more time ideating the topic and potential scope of project
        - Research ways to improve the recall score on the positive predictions of the Random Forest Model
@@ -128,20 +149,20 @@ The presentation tells a cohesive story about their project, including the follo
 ### Machine Learning Model
 Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
-**1. Takes in data in from the provisional database**
+**Takes in data in from the provisional database**
 
       - beer_reviews.csv
       
-**2. Outputs label(s) for input data**
-
+**Outputs label(s) for input data**
+ - Features = all have the same scale of values from 0 to 5, except beer_abv. All are numeric.
     - review_aroma
     - review_appearance
     - review_palate
     - review_taste
     - beer_abv
-    - Target variable = review_overall (3 or under, or 3.5 or higher)
+ - Target variable = review_overall (3 or under, or 3.5 or higher)
 
-**Team members submit the working code for their machine learning model, as well as the following:**
+**Working code on main branch under Logistic Regression and Random Forest Models**
 
     - See attached Logistic Regression and Random Forest Jupyter Notebooks
     - See Google slide deck for the below 1-7 deliverables
@@ -153,49 +174,24 @@ Team members present a provisional machine learning model that stands in for the
 6. Description of how model was trained (or retrained, if they are using an existing model) 
 7. Description and explanation of model’s confusion matrix, including final accuracy score
 
-**Additionally, the model obviously addresses the question or problem the team is solving.**
-
 Note: If statistical analysis is not included as part of the current analysis, include a description of how it would be included in the next phases of the project.
 
- 
-### Database
-Team members present a final project with a fully integrated database. 
 
-**1. Database stores static data for use during the project**
+## Dashboard
 
-      - https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
-      
-**2. Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)**
+**Storyboard on Google Slide(s)**
 
-3. Includes at least two tables (or collections, if using MongoDB) 
-4. Includes at least one join using the database language (not including any joins in Pandas) 
-5. Includes at least one connection string (using SQLAlchemy or PyMongo) 
-
-Note: If you use a SQL database, you must provide your ERD with relationships.
-
-
-### Dashboard
-A blueprint for the dashboard is created and includes all of the following:
-
-**1. Storyboard on Google Slide(s)**
-
-**2. Description of the tool(s) that will be used to create final dashboard**
+**Description of the tool(s) that will be used to create final dashboard**
 
       - Tableau Desktop
       
-**3. Description of interactive element(s)**
+**Description of interactive element(s)**
 
       - Show the breweries and average overall review. Allow the user to select a set of breweries and/or an overall review range.
       - Show the average overall review by ABV. Allow the user to select an ABV range and/or beer style.
 
 
-**The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:**
 
-1. Images from the initial analysis 
-2. Data (images or report) from the machine learning task 
-3. At least one interactive element
-
-Either the dashboard is published or the submission includes a screen capture video of it in action. 
 
 Working Notes
 - Data at a glance: overview tab to give the user a good idea of how much data, what kind of data, etc they are seeing
