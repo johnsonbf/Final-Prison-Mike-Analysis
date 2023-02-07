@@ -1,24 +1,5 @@
 # Beer Advocate Beer Review Analysis
 
-## Sections in general
-- Presentation:
-  - Google Slides
-- GitHub:
-  - Branching, commits
-  - The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted.
-- Machine Learning Model:
-  - Working model
-  - Full description of steps with explanations
-  - Answers the question
-- Database
-   - Integrated database
-   - At least 2 tables, 1 join, 1 connection string
-- Dashboard
-  - Data story that is logical and easy to follow
-  - Images from the initial analysis
-  - Data from the machine learning task
-  - At least one interactive element
-
 ## Project Notes
 - Our data source file is over 200MB. Over 30MB when zipped. We attempted lfs and were not successful. Please see this link for our data.
 https://www.kaggle.com/datasets/thedevastator/1-5-million-beer-reviews-from-beer-advocate
